@@ -85,3 +85,168 @@ body {
 .login input[type="submit"]:focus {
   border-color: #05a;
 }
+.top-block {
+	color:rgba(0, 170, 238, 0.9);
+    position:absolute;
+    width: 1590px;	
+	height:70px; 
+	Left:3px;
+	top:3px;
+	font-style:Oblique;
+	border-style:solid;
+	border-radius:15px;
+	}
+.center-block {
+	color:orange;
+    position:absolute;
+    width: 1330px;	
+	height:600px; 
+	Left:2px;
+	top:85px;
+	font-style:Oblique;
+	border-style:solid;
+	border-radius:15px;
+	}		
+
+.knopka-block{
+    color:orange;
+    position:absolute;
+    width: 60px;	
+	height:30px; 
+	Left:1520px;
+	top:-7px;
+    }
+.knopka2-block{
+    color:orange;
+    position:absolute;
+    width: 60px;	
+	height:30px; 
+	Left:1460px;
+	top:20px;
+    }
+.popup_overlay{
+  display: none;
+  background: rgba(0,0,0,.9);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.popup{
+  display: none;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  width: 600px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+}
+.popup_title{
+  font-weight: bold;
+  padding: 10px;
+}
+.popup_content{
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+.closer{
+  float: right;
+  cursor: pointer;
+}
+body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+
+.login-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+
+
+.login input[type="submit"]:focus {
+  border-color: #05a;
+  
+  
+  
+  
+  
+  
+  
